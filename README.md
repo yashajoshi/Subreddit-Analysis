@@ -64,7 +64,7 @@ Once you have a database created, you can now being to fill in the provided 'con
 ### Running the program
 Once all the above has been completed, you are now ready to run the program. The first step is to check the database connection by running:
 ```
-python3 SI507F17_finalproject.py
+python3 finalproject.py
 ```
 You should see a readout in your terminal of 'Success connecting to the database'
 
@@ -103,7 +103,7 @@ Example output after running plot:
 Running the program each time will require a write command followed by a plot command. Write to get all data into the database, and plot to plot the data.
 
 ### Running the tests
-The SI507F17_finalproject_tests.py file included contains all test cases for this program. If you are having issues with getting through the installation steps, please run these tests. It will give you an idea of what where the issue is.
+The finalproject_tests.py file included contains all test cases for this program. If you are having issues with getting through the installation steps, please run these tests. It will give you an idea of what where the issue is.
 
 Provided for you is a sample post json file ```sample_reddit_post.json```. This needs to be in your folder for some of the test functions.
 
