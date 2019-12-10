@@ -31,7 +31,7 @@ Provided for you is a config_sample.py file. This contains all the required vari
 
 This program requires database connection using PostgreSQL. For documentation on installing PostgreSQL follow the links below:
 
-For Mac:
+### For Mac:
 
 Get homebrew: Go to this link: https://brew.sh/ Copy the one line of code that they have on that page, which is this:
 
