@@ -83,6 +83,7 @@ write
 This write command runs the ```start_reddit_session(), load_cache(), and run_search_on_default()``` functions. The ```start_reddit_session()``` does, as you would guess, start the reddit request session saving a token in the 'creds.json' file. The ```load_cache()``` functions loads the cache into the CACHE_DICTION variable, but if the cache file is older than a day, it deletes the file and makes a new cache_file for the day. The ```run_search_on_default()``` function finally pulls all this together and iterates over a static list containing default subreddits that each account is automatically subscribed to when they create a reddit account. It then checks to see if it is making a new request or pulling from the database for each subreddit and inputing the data into the database.
 
 The database should look similar to this:
+
 ![database](https://github.com/yashajoshi/Finalproject/img.png)
 
 ![database1](https://github.com/yashajoshi/Finalproject/img1.png)
@@ -96,6 +97,7 @@ The ```plot``` command runs the ```plot()``` function. Connection and storage of
 The bar chart should open automatically in Google Chrome, however, if that doesn't appear to be the case, go into the directory and open the file ```subreddit_analysis.html``` in your webbrowser.
 
 Example output after running plot:
+
 ![plot](https://github.com/yashajoshi/Finalproject/plot.png)
 
 Running the program each time will require a write command followed by a plot command. Write to get all data into the database, and plot to plot the data.
