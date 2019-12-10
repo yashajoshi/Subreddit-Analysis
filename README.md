@@ -84,9 +84,9 @@ This write command runs the ```start_reddit_session(), load_cache(), and run_sea
 
 The database should look similar to this:
 
-![database](https://github.com/yashajoshi/Finalproject/img.png)
+![img](https://user-images.githubusercontent.com/55447190/70535903-db006000-1b2b-11ea-88b6-8f6da1ff7148.PNG)
 
-![database1](https://github.com/yashajoshi/Finalproject/img1.png)
+![img1](https://user-images.githubusercontent.com/55447190/70536004-01260000-1b2c-11ea-9cb2-3692fa8ba9ef.PNG)
 
 To create a plot, run the following command in your terminal
 ```
@@ -98,7 +98,7 @@ The bar chart should open automatically in Google Chrome, however, if that doesn
 
 Example output after running plot:
 
-![plot](https://github.com/yashajoshi/Finalproject/plot.png)
+![plot](https://user-images.githubusercontent.com/55447190/70536047-1438d000-1b2c-11ea-9474-37c936bb2bad.PNG)
 
 Running the program each time will require a write command followed by a plot command. Write to get all data into the database, and plot to plot the data.
 
