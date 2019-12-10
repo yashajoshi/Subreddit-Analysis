@@ -94,7 +94,7 @@ plot
 ```
 The ```plot``` command runs the ```plot()``` function. Connection and storage of data into the database is required for this function to work. The function runs an SQL query collecting the sum of each post's score, inner joining the tables on their foreign key (ID and subreddit_id), and grouping the sum by the Subreddit's name. After running a .fetchall(), we are left with a list containing the sum of scores and the subreddit name associated. After unpacking the list, we then use Plotly to create a visual of the data collected.
 
-The bar chart should open automatically in Google Chrome, however, if that doesn't appear to be the case, go into the directory and open the file ```subreddit_analysis.html``` in your webbrowser.
+The bar chart should open automatically in Google Chrome (or your default browser), however, if that doesn't appear to be the case, go into the directory and open the file ```subreddit_analysis.html``` in your webbrowser.
 
 Example output after running plot:
 
