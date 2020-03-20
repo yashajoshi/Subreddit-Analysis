@@ -1,4 +1,4 @@
-# Finalproject
+# Subreddit Analysis
 
 This project utilizes the Reddit API for pulling the 'top 24 hours' page of each default subreddit. The data from these requests are then cached and written into a database containing two separate tables. After a day, the cache is deleted and the database is re-written to contain new data showing the live data. Finally the data is visualised into different bar and pie charts.  
 
