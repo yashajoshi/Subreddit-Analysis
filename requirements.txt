@@ -37,7 +37,7 @@ pluggy==0.13.0
 post==2019.4.13
 prompt==0.4.1
 psycopg2==2.8.4
-py==1.8.0
+py==1.10.0
 pycryptodome==3.9.1
 pyparsing==2.4.4
 pyrsistent==0.15.5
